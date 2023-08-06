@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="SOURAB KARAD">
+        <meta name="description" content="this page contains all the info about html">
+        <title>html.details</title>
+        <link rel="icon" href="1394138.webp" type ="image/x-icon">
+        <style>
+            html {
+                font-size: 28px
+            }
+            body{
+                background-color: #333;
+                color: whitesmoke;
+            }
+            a {
+                color: aliceblue;
+            }
+            a:visited {
+                color: lightblue;
+            }
+            a:hover, a:active {
+                color : #eee;
+            }
+            table, tr, td, th, caption {
+                border: 1px solid #eee;
+                font-family: 'Courier New', Courier, monospace;
+                border-collapse: collapse;
+                padding: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>HTML</h1>
+        
+        <figure>
+            <img src="images/img3.png" alt="HTML LOGO" title="learning html" width="200" height="200">
+            <figcaption>HTML LOGO</figcaption>
+        </figure>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">My Schedule</a>
+                </li>
+                <li>
+                    <a href="#knowledge">planning</a>
+                </li>
+                <li>
+                    <a href="#contact">contact me</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <hr>
+        
+        <p>Hypertext markup language</p> 
+        <hr> 
+        <h2>WHY</h2>
+        <P>html is a language used for web dev and to create web pages</P>
+
+        <hr>
+        <main>
+        <section id="html">
+        <h3>WHEN</h3>
+        <img src="images/img1.jpg" alt="time" width="300" height="300">
+        <p>-->schedule
+            <br>&nbsp;&nbsp;&nbsp;....planinng the daily routine
+            <br>&nbsp;&nbsp;&nbsp;....Aknowledgement of the need
+            <br>&nbsp;&nbsp;&nbsp;....how and where to use css
+            <br><em>&nbsp;&nbsp;&nbsp;....today is the day</em>
+            <br><strong>&nbsp;&nbsp;&nbsp;....think postive!!</strong>
+            <br><strong>&nbsp;&nbsp;&nbsp;....i code on <abbr title="Visual studio code">
+                <a href ="https://code.visualstudio.com/">VSC</a>
+            </abbr></strong>
+        </p>
+        <p>Place i would like to vist:</p>
+            <address>
+                <ol>
+                    <li>kedarnath</li>
+                    <li>ladhk</li>
+                    <li>dehradun</li>
+                    <li>mumbai</li>
+                </ol>
+            </address>
+        </section>
+        <hr>
+        <section id="knowledge">
+        <h4><em>HOW TO PLAN :</em></h4>
+        <img src="images/img2.jpg" alt="hardwork" width="300" height="300">
+        <p>how i plan out things :</p>
+        <ol>
+            <li>i prefer working according to a time table</li>
+            <li>making good hobbies</li>
+            <li>daily practice of web dev</li>
+            <li>having decipline and focused goal</li>
+            <li>prefer watching videos of <abbr title="triggered insaan,"><a href="https://www.youtube.com/@triggeredinsaan">TI</a>,    </abbr><abbr title = "dhirumonchik">DM,</abbr> <abbr title="freecodecamp">Fcc,</abbr></li>
+        </ol>
+        </section>
+            <aside>
+                <details>
+                    <summary>
+                        guess the number of hours i code per day?
+                    </summary>
+                    <p>
+                        i code for 3hours daily!
+                    </p>
+                </details>
+            </aside>
+            <br>
+            <table>
+                <caption>my daily schedule</caption>
+                <thead>
+                <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Planned work</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <time datetime="06:00">6 am</time>-<time datetime="08:00">8 am</time>
+                    </td>
+                    <td>
+                        Workout/exercise
+                    </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="09:00">9 am</time>-<time datetime="10:00">10 am</time>
+                    </td>
+                    <td>
+                        Read current affairs
+                    </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="10:00">10 am</time>-<time datetime="12:00">12 pm</time>
+                    </td>
+                    <td>
+                        <strong>Code</strong>
+                    </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="12:00">12 pm</time>-<time datetime="14:00">2 pm</time>
+                    </td>
+                    <td>
+                        <em>Lunch break</em>
+                    </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="14:00">2 pm</time>-<time datetime="16:00">4 pm</time>
+                    </td>
+                    <td>
+                        Work on other courses
+                    </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="16:00">4 pm</time>-<time datetime="18:00">6 pm</time>
+                    </td>
+                    <td>
+                        Sports
+                    </td>  
+                </tr>
+                </tbody>
+            </table>
+            
+            <hr>
+
+            <section id="contact">
+                <h2>Contact me</h2>
+                <p>I'd really like to here from you!</p>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                    <p>
+                    <label for="FirstName">First Name :</label>
+                    <input type="text" name="FirstName" id="FirstName" placeholder="Ex - Sourab" autocomplete="on" required>
+                    </p>
+                    <p>
+                    <label for="LastName">Last Name :</label>
+                    <input type="text" name="LastName" id="LastName" placeholder="Ex - Karad" autocomplete="on">
+                    </p>
+                    <p>
+                        <label for="E-mail">Gmail :</label>
+                        <input type="text" name="E-mail" id="E-mail" placeholder="abcdef@gmail.com" autocomplete="on">
+                    </p>
+                    <p>
+                        <label for="phone">Phone no :</label>
+                        <input type="tel" name="phone" id="phone" placeholder="+91-xxxxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                    </p>
+                    <p>
+                        <label for="Passout">Passout Year :</label>
+                        <input type="number" name="Passout" id="Passout" max="2023" step="1" value="2023">
+                    </p>
+                    <p>
+                        <label for="State">State :</label>
+                        <input type="text" name="State" id="State" list="State-list">
+                        <datalist id="State-list">
+                            <!--<option value="enter">enter the state you live in</option>-->
+                                <option value="Andra pradesh">
+                                <option value="Arunachal Pradesh">
+                                <option value="Assam">
+                                <option value="Bihar">
+                                <option value="Odisha">
+                                <option value="Rajasthan">
+                                <option value="Telangana">
+                                <option value="Tamil Nadu">
+                                <option value="Uttar Pradesh">
+                                <option value="West Bengal">
+                                <option value="Others">
+                            </datalist>
+                    </p>               
+                    <label for="message">Your message :</label> 
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="You can Send me a note here!"></textarea>
+                </fieldset>
+                <hr>
+                <aside>
+                    <details>
+                        <summary>
+                            How was my first web page
+                        </summary>
+                            <fieldset>
+                                <p>
+                                    <input type="checkbox" name="review" id="good" value="good">
+                                    <label for="good">Was good but still you can improve!</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="review" id="better" value="better">
+                                    <label for="better">others</label>
+                                </p>    
+                            </fieldset>
+                    </details>
+                </aside>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">SUBMIT</button>
+                <button type="reset">Submit</button>
+                </form>
+
+
+            </section>
+        </main>
+        <hr>
+
+        <h5>Skills</h5>
+        <p>my personal skills are:</p>
+        <ul>
+            <li>good communication skills</li>
+            <li>team leader qualities</li>
+            <li>good communicator and lisitner</li>
+            <li>good at team works</li>
+        </ul>
+
+        <p>my personal details:</p>
+        <ol>
+            <li><a href="https://www.instagram.com/"><EM>instagram</EM></a></li>
+            <li><a href="https://www.youtube.com/@sourabkarad1009"><em>youtube</em></a></li>
+        </ol>
+        <hr>
+        <footer>
+            <p>
+                &lt;&lt;&lt; &copy; <strong><em><a href="about.html">Sourab Karad</a></em></strong> &gt;&gt;&gt;
+            </p>
+        <p>
+            <a href="#">return to home</a>
+        </p>
+        </footer>
+    </body>
+</html>
